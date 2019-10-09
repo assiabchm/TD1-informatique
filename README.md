@@ -160,7 +160,7 @@ def sumprimes(n):
 #PROBLeme 16
 def solve16(n):
     s= 0
-    for chiffre in [int(c) for c in str(2**n)]: #transforme le nombre en la liste de ses chiffres
+    for chiffre in [int(c) for c in str(2**n)]: 
         s += chiffre
     return s
 
